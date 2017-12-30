@@ -1,0 +1,21 @@
+@import ./color-code
+
+.mat-focused .mat-form-field-placeholder
+  color: $input-text
+
+.mat-form-field-placeholder
+  color: $input-placeholder
+
+.mat-form-field-ripple
+  background-color: $form-field-underline
+
+.mat-form-field-placeholder-wrapper
+  overflow: visible !important
+
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-placeholder
+  -webkit-transform: translateY(-1.6em) scale(.75) perspective(100px) translateZ(.001px)
+  transform: translateY(-1.6em) scale(.75) perspective(100px) translateZ(.001px)
+  -ms-transform: translateY(-1.6em) scale(.75) perspective(100px) translateZ(.001px)
+
+.mat-input-container
+  width: 100%
